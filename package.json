@@ -1,0 +1,30 @@
+{
+  "name": "todoapi",
+  "version": "1.0.0",
+  "description": "node api for todos",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lindsayMecher/nodeAPI.git"
+  },
+  "keywords": [
+    "nodeapi"
+  ],
+  "author": "lindsay mecher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lindsayMecher/nodeAPI/issues"
+  },
+  "homepage": "https://github.com/lindsayMecher/nodeAPI#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.23"
+  }
+}
